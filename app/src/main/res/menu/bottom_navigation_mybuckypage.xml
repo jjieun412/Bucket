@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_list"
+        android:enabled="true"
+        android:icon="@drawable/listicon"
+        android:iconTint="#000000"
+        android:title="관심 목록" />
+
+    <item
+        android:id="@+id/nav_mybuckypage"
+        android:enabled="false"
+        android:title="" />
+
+    <item
+        android:id="@+id/nav_mypage"
+        android:enabled="true"
+        android:icon="@drawable/person"
+        android:iconTint="#000000"
+        android:title="설정" />
+
+</menu>

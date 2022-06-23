@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EDEDED"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/btn_back"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="30dp"
+            android:background="#FFFFFF"
+            android:src="@drawable/arrow"
+            app:tint="#191970" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="45dp"
+            android:text="버킷리스트 수정"
+            android:textColor="#191970"
+            android:textSize="17dp"/>
+
+        <ImageView
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="130dp"
+            android:src="@drawable/bear4" />
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:gravity="center"
+        android:text="버킷리스트를 이루기 위한 세부계획을 작성해주세요."
+        android:textStyle="bold"
+        android:textSize="14dp"
+        android:textColor="#000000" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ToggleButton
+            android:id="@+id/btn_date"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_marginRight="35dp"
+            android:checked="false"
+            android:padding="10dp"
+            android:background="@drawable/button_shape"
+            android:textOn="날짜 선택"
+            android:textOff="날짜 선택"
+            android:textColor="#191970"
+            android:textSize="13dp"
+            android:textStyle="bold"/>
+
+        <ToggleButton
+            android:id="@+id/btn_rule"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="30dp"
+            android:checked="false"
+            android:background="@drawable/button_shape"
+            android:textOn="규칙적"
+            android:textOff="규칙적"
+            android:textColor="#191970"
+            android:textSize="13dp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    // 화면 표시 (날짜선택, 규칙적 -> button)
+    <FrameLayout
+        android:id="@+id/layout_page3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/btn_editComplete"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/button_shape"
+        android:backgroundTint="#191970"
+        android:padding="10dp"
+        android:text="수정완료"
+        android:textColor="#FFFFFF"
+        android:textSize="16dp"
+        android:visibility="invisible" />
+</LinearLayout>

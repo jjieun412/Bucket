@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_point"
+        android:enabled="true"
+        android:icon="@drawable/pointicon"
+        android:iconTint="#000000"
+        android:title="포인트 조회" />
+
+    <item
+        android:id="@+id/nav_home"
+        android:enabled="false"
+        android:title="" />
+
+    <item
+        android:id="@+id/nav_mybucky"
+        android:enabled="true"
+        android:icon="@drawable/person"
+        android:iconTint="#000000"
+        android:title="나의 버킷 조회" />
+
+</menu>

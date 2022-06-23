@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/btn_back"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="30dp"
+            android:background="#FFFFFF"
+            android:src="@drawable/arrow"
+            app:tint="#191970" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="125dp"
+            android:layout_marginRight="125dp"
+            android:layout_marginTop="45dp"
+            android:text="설정"
+            android:textColor="#191970"
+            android:textSize="17dp" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/btn_profile_edit"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:gravity="right"
+                android:paddingRight="20dp"
+                android:background="#00ff0000"
+                android:text="프로필 수정"
+                android:textSize="11dp"
+                android:textColor="#404040"
+                android:drawableRight="@drawable/pencil" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profile_img"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center"
+                android:scaleType="centerCrop"
+                android:src="@drawable/sky" />
+
+            <TextView
+                android:id="@+id/my_nickname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:gravity="center"
+                android:text="닉네임"
+                android:textColor="#565353"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="6dp"
+                android:layout_marginTop="10dp"
+                android:background="#C0C0C0"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="45dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    android:text="이메일"
+                    android:textSize="13dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/my_email"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    android:text="abc234@konkuk.ac.kr" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="60dp"
+                android:text="내가 선택한 추천 카테고리"
+                android:textSize="13dp"
+                android:textStyle="bold" />
+
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_gravity="center"
+                android:background="#ECECEC">
+
+                <TableRow>
+                    <ToggleButton
+                        android:id="@+id/btn_travel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:checked="false"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:padding="15dp"
+                        android:textSize="11dp"
+                        android:textColor="#808080"
+                        android:textOn=" #여행 "
+                        android:textOff=" #여행 " />
+
+                    <ToggleButton
+                        android:id="@+id/btn_food"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:checked="false"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:padding="15dp"
+                        android:textSize="11dp"
+                        android:textColor="#808080"
+                        android:textOn=" #맛집 "
+                        android:textOff=" #맛집 " />
+
+                    <ToggleButton
+                        android:id="@+id/btn_challenge"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:checked="false"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:padding="15dp"
+                        android:textSize="11dp"
+                        android:textColor="#808080"
+                        android:textOn=" #도전 "
+                        android:textOff=" #도전 " />
+                </TableRow>
+
+                <TableRow>
+                    <ToggleButton
+                        android:id="@+id/btn_exercise"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:checked="false"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:padding="15dp"
+                        android:textSize="11dp"
+                        android:textColor="#808080"
+                        android:textOn=" #운동 "
+                        android:textOff=" #운동 "/>
+
+                    <ToggleButton
+                        android:id="@+id/btn_develop"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:checked="false"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:padding="15dp"
+                        android:textSize="11dp"
+                        android:textColor="#808080"
+                        android:textOn=" #자기계발 "
+                        android:textOff=" #자기계발 " />
+
+                    <ToggleButton
+                        android:id="@+id/btn_diet"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:checked="false"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:padding="15dp"
+                        android:textColor="#808080"
+                        android:textSize="11dp"
+                        android:textOn=" #자기관리 "
+                        android:textOff=" #자기관리 " />
+                </TableRow>
+
+                <TableRow>
+                    <ToggleButton
+                        android:id="@+id/btn_hobby"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:checked="false"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:padding="15dp"
+                        android:textSize="11dp"
+                        android:textColor="#808080"
+                        android:textOn=" #취미 "
+                        android:textOff=" #취미 " />
+
+                    <ToggleButton
+                        android:id="@+id/btn_work"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:checked="false"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:padding="15dp"
+                        android:textSize="11dp"
+                        android:textColor="#808080"
+                        android:textOn=" #입시/취업 "
+                        android:textOff=" #입시/취업 "  />
+
+                    <ToggleButton
+                        android:id="@+id/btn_language"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:checked="false"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:padding="15dp"
+                        android:textSize="11dp"
+                        android:textColor="#808080"
+                        android:textOn=" #외국어 "
+                        android:textOff=" #외국어 " />
+                </TableRow>
+
+                <TableRow>
+                    <ToggleButton
+                        android:id="@+id/btn_finance"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:checked="false"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:padding="15dp"
+                        android:textSize="11dp"
+                        android:textColor="#808080"
+                        android:textOn=" #재테크 "
+                        android:textOff=" #재테크 " />
+
+                    <ToggleButton
+                        android:id="@+id/btn_certificate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:checked="false"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:padding="15dp"
+                        android:textSize="11dp"
+                        android:textColor="#808080"
+                        android:textOn=" #자격증 "
+                        android:textOff=" #자격증 " />
+
+                    <ToggleButton
+                        android:id="@+id/btn_health"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:checked="false"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:padding="15dp"
+                        android:textSize="11dp"
+                        android:textColor="#808080"
+                        android:textOn=" #건강 "
+                        android:textOff=" #건강 " />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ToggleButton
+                        android:id="@+id/btn_book"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:background="#FFFFFF"
+                        android:checked="false"
+                        android:gravity="center"
+                        android:padding="15dp"
+                        android:textColor="#808080"
+                        android:textOff=" #독서 "
+                        android:textOn=" #독서 "
+                        android:textSize="11dp" />
+
+                    <ToggleButton
+                        android:id="@+id/btn_anything"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:background="#FFFFFF"
+                        android:checked="false"
+                        android:gravity="center"
+                        android:padding="15dp"
+                        android:textColor="#808080"
+                        android:textOff=" #기타 "
+                        android:textOn=" #기타 "
+                        android:textSize="11dp" />
+                </TableRow>
+            </TableLayout>
+
+            <Button
+                android:id="@+id/btn_asklist"
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:layout_marginTop="20dp"
+                android:gravity="right"
+                android:paddingRight="30dp"
+                android:background="#FFFFFF"
+                android:text="문의내역"
+                android:textSize="11dp"
+                android:textColor="#565353"
+                style="?android:attr/borderlessButtonStyle"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="6dp"
+                android:layout_marginTop="15dp"
+                android:background="#C0C0C0"/>
+
+            <Button
+                android:id="@+id/btn_logout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:gravity="right"
+                android:paddingRight="30dp"
+                android:background="#FFFFFF"
+                android:text="로그아웃"
+                android:textSize="11dp"
+                android:textColor="#565353"/>
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
