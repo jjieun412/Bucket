@@ -1,0 +1,650 @@
+[
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/layout_welcomepage.xml.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/layout/welcomepage.xml"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/drawable_nextpage_arror.xml.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/drawable/nextpage_arror.xml"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/drawable_write_bucket.png.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/drawable/write_bucket.png"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/drawable_numcircle.xml.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/drawable/numcircle.xml"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/drawable_remove_img.png.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/drawable/remove_img.png"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/drawable_review_add.xml.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/drawable/review_add.xml"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/layout_alarm_bucketlist.xml.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/layout/alarm_bucketlist.xml"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/drawable_favorite_null.xml.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/drawable/favorite_null.xml"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/drawable_radius_line.xml.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/drawable/radius_line.xml"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/drawable_backicon.xml.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/drawable/backicon.xml"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/drawable_bear3.png.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/drawable/bear3.png"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/drawable_lock.xml.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/drawable/lock.xml"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/drawable_splashimage.PNG.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/drawable/splashimage.PNG"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/drawable_cameraicon.xml.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/drawable/cameraicon.xml"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/drawable_loadingicon3.png.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/drawable/loadingicon3.png"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/layout_heartonly_page.xml.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/layout/heartonly_page.xml"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/drawable_bronze.png.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/drawable/bronze.png"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/layout_editbucket_rule.xml.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/layout/editbucket_rule.xml"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/layout_join_page.xml.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/layout/join_page.xml"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/layout_home_add.xml.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/layout/home_add.xml"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_appicon_foreground.png.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/mipmap-xxxhdpi/ic_appicon_foreground.png"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_appicon_foreground.png.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/mipmap-xhdpi/ic_appicon_foreground.png"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/drawable_line_image.PNG.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/drawable/line_image.PNG"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/layout_point_page.xml.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/layout/point_page.xml"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/drawable_person.xml.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/drawable/person.xml"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/drawable_icon.JPG.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/drawable/icon.JPG"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/drawable_minus_icon.png.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/drawable/minus_icon.png"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/drawable_bear2.png.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/drawable/bear2.png"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/drawable_sliver.png.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/drawable/sliver.png"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/drawable_radius.xml.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/drawable/radius.xml"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/drawable_delete.xml.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/drawable/delete.xml"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/layout_layout_add.xml.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/layout/layout_add.xml"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/drawable_join_person.xml.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/drawable/join_person.xml"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/mipmap-anydpi-v26_ic_appicon_round.xml.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/mipmap-anydpi-v26/ic_appicon_round.xml"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/menu_bottom_navigation_mybuckypage.xml.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/menu/bottom_navigation_mybuckypage.xml"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/layout_writebucket_endpage.xml.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/layout/writebucket_endpage.xml"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/drawable_background_circle.PNG.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/drawable/background_circle.PNG"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/xml_network_security_config.xml.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/xml/network_security_config.xml"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/drawable_searchicon.xml.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/drawable/searchicon.xml"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/drawable_profile.xml.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/drawable/profile.xml"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/drawable_rankline.png.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/drawable/rankline.png"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/drawable_cup.png.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/drawable/cup.png"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/drawable_image_shape.xml.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/drawable/image_shape.xml"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/layout_mybklist_detail.xml.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/layout/mybklist_detail.xml"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/layout_writebucket_page4.xml.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/layout/writebucket_page4.xml"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/drawable_check_circle.xml.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/drawable/check_circle.xml"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_appicon.png.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/mipmap-xxhdpi/ic_appicon.png"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/layout_editbucket_page1.xml.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/layout/editbucket_page1.xml"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_appicon_round.png.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/mipmap-xxxhdpi/ic_appicon_round.png"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/layout_myset_page.xml.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/layout/myset_page.xml"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/drawable_startimage.PNG.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/drawable/startimage.PNG"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/drawable_content_shape.xml.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/drawable/content_shape.xml"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/drawable_detail_shape.xml.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/drawable/detail_shape.xml"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/drawable_crown.png.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/drawable/crown.png"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/layout_writebucket_page1.xml.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/layout/writebucket_page1.xml"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/layout_mybklist_review_addimg.xml.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/layout/mybklist_review_addimg.xml"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/layout_bkdetail_date.xml.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/layout/bkdetail_date.xml"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/drawable-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/layout_activity_main.xml.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/drawable_rank_background.png.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/drawable/rank_background.png"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/drawable_gold.png.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/drawable/gold.png"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/layout_point_rank_add.xml.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/layout/point_rank_add.xml"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/drawable_button_shape_on.xml.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/drawable/button_shape_on.xml"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/drawable_radius_rank2.xml.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/drawable/radius_rank2.xml"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/drawable_profile_edit.png.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/drawable/profile_edit.png"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/drawable_welcome.png.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/drawable/welcome.png"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/drawable_detail_complete.xml.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/drawable/detail_complete.xml"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/layout_pwfind_page.xml.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/layout/pwfind_page.xml"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/drawable_favorite_full.xml.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/drawable/favorite_full.xml"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/drawable_arrow_back.xml.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/drawable/arrow_back.xml"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/layout_login_page.xml.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/layout/login_page.xml"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/drawable_set_mypage.png.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/drawable/set_mypage.png"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/drawable_pencil.xml.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/drawable/pencil.xml"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/layout_service_asklist_add.xml.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/layout/service_asklist_add.xml"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/drawable_check_full.xml.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/drawable/check_full.xml"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/drawable_pointicon.png.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/drawable/pointicon.png"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/drawable_check_null.xml.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/drawable/check_null.xml"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/drawable_arrow.xml.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/drawable/arrow.xml"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/drawable_arrowup.xml.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/drawable/arrowup.xml"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/layout_writebucket_rulepage.xml.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/layout/writebucket_rulepage.xml"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/layout_bkdetail_image.xml.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/layout/bkdetail_image.xml"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/drawable_okay_check.xml.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/drawable/okay_check.xml"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/drawable_ranking.png.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/drawable/ranking.png"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/drawable_heart_null.xml.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/drawable/heart_null.xml"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/drawable_seticon.xml.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/drawable/seticon.xml"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/layout_bkdetail_tags.xml.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/layout/bkdetail_tags.xml"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/layout_point_rank.xml.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/layout/point_rank.xml"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/menu_bottom_navigation.xml.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/menu/bottom_navigation.xml"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_appicon_round.png.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/mipmap-mdpi/ic_appicon_round.png"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_appicon.png.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/mipmap-hdpi/ic_appicon.png"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/layout_mybklist_review.xml.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/layout/mybklist_review.xml"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/drawable_achieve_bear.png.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/drawable/achieve_bear.png"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/drawable_edit.xml.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/drawable/edit.xml"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/drawable_detail_notcomplete.xml.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/drawable/detail_notcomplete.xml"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/layout_writebucket_page3.xml.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/layout/writebucket_page3.xml"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/layout_editbucket_page3.xml.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/layout/editbucket_page3.xml"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/layout_writebucket_datepage.xml.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/layout/writebucket_datepage.xml"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/drawable_complete_flag.png.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/drawable/complete_flag.png"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/drawable_imageicon.xml.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/drawable/imageicon.xml"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/drawable_interneticon.xml.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/drawable/interneticon.xml"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/layout_mybklist_achieve.xml.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/layout/mybklist_achieve.xml"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/drawable_loadingicon1.png.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/drawable/loadingicon1.png"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/layout_search_page.xml.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/layout/search_page.xml"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_appicon_foreground.png.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/mipmap-xxhdpi/ic_appicon_foreground.png"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/layout_home_page.xml.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/layout/home_page.xml"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_appicon.png.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/mipmap-mdpi/ic_appicon.png"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/layout_mybklist_page.xml.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/layout/mybklist_page.xml"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_appicon.png.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/mipmap-xxxhdpi/ic_appicon.png"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/drawable_listicon.xml.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/drawable/listicon.xml"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/drawable_rank_box.png.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/drawable/rank_box.png"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_appicon.png.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/mipmap-xhdpi/ic_appicon.png"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/drawable_button_shape.xml.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/drawable/button_shape.xml"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_appicon_foreground.png.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/mipmap-mdpi/ic_appicon_foreground.png"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/drawable_ic_launcher_background.xml.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/layout_new_pw_setpage.xml.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/layout/new_pw_setpage.xml"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/mipmap-anydpi-v26_ic_appicon.xml.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/mipmap-anydpi-v26/ic_appicon.xml"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/drawable_circle_shape.xml.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/drawable/circle_shape.xml"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_appicon_round.png.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/mipmap-hdpi/ic_appicon_round.png"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/drawable_triangle2.png.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/drawable/triangle2.png"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/drawable_bear1.png.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/drawable/bear1.png"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/drawable_loadingicon2.png.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/drawable/loadingicon2.png"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/layout_alarm_point.xml.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/layout/alarm_point.xml"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/xml_file_path.xml.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/xml/file_path.xml"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/layout_alarm_quest.xml.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/layout/alarm_quest.xml"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/layout_writebucket_datepage_add.xml.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/layout/writebucket_datepage_add.xml"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/layout_pointlist_add.xml.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/layout/pointlist_add.xml"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/drawable_error.xml.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/drawable/error.xml"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/drawable_text_shape.xml.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/drawable/text_shape.xml"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/layout_pwset_okaypage.xml.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/layout/pwset_okaypage.xml"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/layout_userbklist_detail.xml.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/layout/userbklist_detail.xml"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/drawable_add_list.xml.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/drawable/add_list.xml"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_appicon_foreground.png.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/mipmap-hdpi/ic_appicon_foreground.png"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/layout_myset_edit.xml.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/layout/myset_edit.xml"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/drawable_sky.png.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/drawable/sky.png"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/drawable_splash.xml.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/drawable/splash.xml"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/drawable_arrowdown.xml.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/drawable/arrowdown.xml"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/drawable_img_add.xml.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/drawable/img_add.xml"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_appicon_round.png.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/mipmap-xhdpi/ic_appicon_round.png"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/layout_mybklist_add.xml.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/layout/mybklist_add.xml"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/drawable_bear4.png.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/drawable/bear4.png"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/layout_alarm_page.xml.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/layout/alarm_page.xml"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/drawable_camera.png.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/drawable/camera.png"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_appicon_round.png.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/mipmap-xxhdpi/ic_appicon_round.png"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/layout_editbucket_page2.xml.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/layout/editbucket_page2.xml"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/layout_editbucket_date.xml.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/layout/editbucket_date.xml"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/layout_service_ask.xml.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/layout/service_ask.xml"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/drawable_plus_icon.xml.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/drawable/plus_icon.xml"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/drawable_radius_rank.xml.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/drawable/radius_rank.xml"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/layout_service_asklist.xml.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/layout/service_asklist.xml"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/layout_writebucket_page2.xml.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/layout/writebucket_page2.xml"
+    },
+    {
+        "merged": "/Users/yujieun/AndroidStudioProjects/Bucket/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp"
+    }
+]

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <color name="black">#FF000000</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#191970</color>
+    <color name="teal_700">#191970</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">Bucky Bucket</string>
+    <string name="bucket_content">해당 버킷리스트를 이루고 싶은 이유, 마음가짐을 자유롭게 작성해 보세요.</string>
+    <string name="goto_service"> <u>혹시 달성 인증이 안되나요?</u>.</string>
+    <string name="notice"><u>유의사항</u></string>
+    <string name="point_notice">포인트를 사용하려면 최소 1000P 이상 보유 시 사용 가능합니다. \n포인트 사용 가능 단위는 최소 10P 입니다. \n후기 등록 기간에 비례하며 다음과 같이 포인트가 지급됩니다.\n - 7일 미만 : 100P \n - 1개월 미만 : 250P \n - 3개월 미만 : 500P \n - 6개월 미만 : 1,000P \n - 1년 미만 : 2,000P \n - 1년 이상 : 4,000P </string>
+    <string name="pw_hint">8–16자  영문 대소문자+숫자+특수문자를 조합 \n[허용 특수문자: !, ?, @, #, $, %,^, &amp;, *, (, ), +, -, “, ‘, :, ;, |, {, }, &lt;, >, \, ],[,_,=,~,₩,/ ]</string>
+    <string name="review_notice"><b><u>[후기 등록 시 유의사항]</u></b> \n\n 달성 인증 완료 후, 2일 이내에 후기 등록을 마쳐야 포인트를 지급 받을 수 있습니다. \n버킷리스트와 관련이 없거나 부적절한 후기는 포인트를 지급받을 수 없습니다.</string>
+    <string name="service_ask">   - 문의 내용 : </string>
+    <string name="welcome_tell">버킷리스트 계획을 세우고 목표를 달성해 \n포인트를 얻어보세요!</string>
+    <style name="MyCheckBox" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorControlNormal">#191970</item>
+    </style>
+    <style name="MyDatePicker" parent="android:Widget.Material.DatePicker">
+        <item name="android:datePickerMode">spinner</item>
+    </style>
+    <style name="MyDialogTheme" parent="android:Theme.Material.Dialog">
+        <item name="android:datePickerStyle">@style/MyDatePicker</item>
+    </style>
+    <style name="SplashTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash</item>
+    </style>
+    <style name="Theme.Bucket" parent="Theme.AppCompat.Light.NoActionBar">
+        
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        
+        <item name="android:statusBarColor" ns1:targetApi="l">?attr/colorPrimaryVariant</item>
+        
+
+        <item name="android:datePickerStyle">@style/MyDatePicker</item>
+        <item name="android:datePickerMode">spinner</item>
+    </style>
+    <style name="tab_text" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">13dp</item>
+    </style>
+</resources>

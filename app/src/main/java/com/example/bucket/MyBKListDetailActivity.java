@@ -3,6 +3,7 @@ package com.example.bucket;
 
 import android.content.Intent;
 import android.graphics.Color;
+import android.graphics.Typeface;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -88,7 +89,7 @@ public class MyBKListDetailActivity extends AppCompatActivity {
         date = (TextView) findViewById(R.id.mbklist_date);
         visibility = (TextView) findViewById(R.id.mbklist_visible);
         bk_content = (TextView) findViewById(R.id.mbklist_content);
-        // detailPlan 추가
+
 
         // 뒤로 가기 버튼
         btn_back.setOnClickListener(view -> {
@@ -322,10 +323,12 @@ public class MyBKListDetailActivity extends AppCompatActivity {
                         }
                         if(mybkitem.getReviewPicture().size() == 0) { // 실패
                             btn_review.setEnabled(true);
-                        } else {  // 성공
+                        } else {  // 성공 (달성과 후기까지 모두 완료했을ㅅ 때
+                            bk_content.setText(mybkitem.getBucketContent() + "\n\n\n" + "후기 내용 :" + "\n" + mybkitem.getReviewContent());
                             complete_img.setVisibility(View.VISIBLE);
                             complete_text.setVisibility(View.VISIBLE);
                             date.setText(stDate + " ~ " + endDate + "  (완료) ");
+                            date.setTypeface(null, Typeface.BOLD);
 
                             btn_edit.setBackgroundColor(Color.parseColor("#A0A0A0"));
                             btn_edit.setEnabled(false);
@@ -419,7 +422,7 @@ public class MyBKListDetailActivity extends AppCompatActivity {
                     } else {
                         AlertDialog.Builder builder = new AlertDialog.Builder(MyBKListDetailActivity.this);
                         builder.setTitle("알림")
-                                .setMessage("예기치 못한 오류가 발생하였습니다. \n고객센터로 문의해주십시오.")
+                                .setMessage("예기치 못한 오류가 발생하였습니다.")
                                 .setPositiveButton("확인", null)
                                 .create()
                                 .show();

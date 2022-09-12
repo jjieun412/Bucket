@@ -335,7 +335,7 @@ public class EditBucket3Activity extends AppCompatActivity {
                 view = layoutInflater.inflate(R.layout.writebucket_datepage, frame, false);
                 break;
             case 1:
-                view = layoutInflater.inflate(R.layout.writebucket_rulepage, frame, false);
+                view = layoutInflater.inflate(R.layout.editbucket_rule, frame, false);
                 break;
         }
 

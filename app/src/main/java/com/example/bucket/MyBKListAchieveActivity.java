@@ -3,7 +3,6 @@ package com.example.bucket;
 import android.Manifest;
 import android.annotation.SuppressLint;
 import android.content.ContentResolver;
-import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.database.Cursor;
@@ -56,7 +55,6 @@ public class MyBKListAchieveActivity extends AppCompatActivity {
     Button btn_certificate, btn_gotoService;
     LinearLayout layout_notAchieved;
 
-    Context context;
     String mediaPath, CameraUri;
     Bitmap bitmap;
 
@@ -72,6 +70,8 @@ public class MyBKListAchieveActivity extends AppCompatActivity {
         btn_certificate = (Button) findViewById(R.id.btn_certificate_achieve);
         layout_notAchieved = (LinearLayout) findViewById(R.id.layout_ifnotachieved);
         btn_gotoService = (Button) findViewById(R.id.btn_gotoservice);
+
+
 
 
         // 뒤로 가기 버튼
@@ -95,14 +95,7 @@ public class MyBKListAchieveActivity extends AppCompatActivity {
                 MyBKListAchievedResponse();
             }
         });
-/*
-        // 달성 안될시 문의하기로 이동
-        btn_gotoService.setOnClickListener(view -> {
-            Intent intent = new Intent(getApplicationContext(), ServiceAskActivity.class);
-            startActivity(intent);
-        });
 
- */
 
         // 카메라로 사진 촬영해서 사진 가져오기
         camera.setOnClickListener(view -> {
@@ -232,9 +225,10 @@ public class MyBKListAchieveActivity extends AppCompatActivity {
                         AlertDialog alertDialog = builder.create();
                         alertDialog.show();
 
-                        btn_certificate.setText("달성 인증 재시도");
                         btn_certificate.setBackgroundColor(Color.RED);
+                        btn_certificate.setText("달성 인증 재시도");
                         layout_notAchieved.setVisibility(View.VISIBLE);
+                        btn_certificate.setBackgroundResource(R.drawable.radius);
 
                         // 달성 안될시 문의하기로 이동
                         btn_gotoService.setOnClickListener(view -> {

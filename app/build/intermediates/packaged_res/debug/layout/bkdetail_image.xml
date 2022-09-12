@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/mbklist_img"
+        android:layout_width="412dp"
+        android:layout_height="240dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/sky" />
+</LinearLayout>

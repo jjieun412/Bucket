@@ -44,10 +44,6 @@
         <activity android:name=".PWokayActivity" />
         <activity android:name=".WelcomeActivity" />
         <activity android:name=".HomeActivity" />
-        <activity android:name=".AlarmActivity" />
-        <activity android:name=".AlarmQuestActivity" />
-        <activity android:name=".AlarmBucketActivity" />
-        <activity android:name=".AlarmPointActivity" />
         <activity android:name=".SearchActivity" />
         <activity android:name=".MyBKListActivity" />
         <activity android:name=".BKListHeartOnlyActivity" />

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.bucket"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="28"
+        android:targetSdkVersion="32" />
+    // 인터넷 권한 선언
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    // 카메라 권한과 외부저장소 읽고 쓰기 권한
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+  // 하드웨어 카메라 사용
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:extractNativeLibs="false"
+        android:icon="@mipmap/ic_appicon"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_appicon_round"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/Theme.Bucket"
+        android:usesCleartextTraffic="true" >
+        <activity
+            android:name="com.example.bucket.MainActivity"
+            android:exported="true"
+            android:theme="@style/SplashTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.bucket.LoginActivity" />
+        <activity android:name="com.example.bucket.JoinActivity" />
+        <activity android:name="com.example.bucket.PwFindActivity" />
+        <activity android:name="com.example.bucket.PWsetActivity" />
+        <activity android:name="com.example.bucket.PWokayActivity" />
+        <activity android:name="com.example.bucket.WelcomeActivity" />
+        <activity android:name="com.example.bucket.HomeActivity" />
+        <activity android:name="com.example.bucket.SearchActivity" />
+        <activity android:name="com.example.bucket.MyBKListActivity" />
+        <activity android:name="com.example.bucket.BKListHeartOnlyActivity" />
+        <activity android:name="com.example.bucket.WriteBucket1Activity" />
+        <activity android:name="com.example.bucket.WriteBucket2Activity" />
+        <activity android:name="com.example.bucket.WriteBucket3Activity" />
+        <activity android:name="com.example.bucket.WriteBucket4Activity" />
+        <activity android:name="com.example.bucket.WriteBucketEndActivity" />
+        <activity android:name="com.example.bucket.PointActivity" />
+        <activity android:name="com.example.bucket.PointRankActivity" />
+        <activity android:name="com.example.bucket.MyBKListDetailActivity" />
+        <activity android:name="com.example.bucket.EditBucket1Activity" />
+        <activity android:name="com.example.bucket.EditBucket2Activity" />
+        <activity android:name="com.example.bucket.EditBucket3Activity" />
+        <activity android:name="com.example.bucket.UserBKListDetailActivity" />
+        <activity android:name="com.example.bucket.ServiceAskActivity" />
+        <activity android:name="com.example.bucket.ServiceAskListActivity" />
+        <activity android:name="com.example.bucket.MySetPageActivity" />
+        <activity android:name="com.example.bucket.MySetPageEditActivity" />
+        <activity android:name="com.example.bucket.MyBKListReviewActivity" />
+        <activity android:name="com.example.bucket.MyBKListAchieveActivity" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <provider
+            android:name="androidx.startup.InitializationProvider"
+            android:authorities="com.example.bucket.androidx-startup"
+            android:exported="false" >
+            <meta-data
+                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+                android:value="androidx.startup" />
+            <meta-data
+                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+                android:value="androidx.startup" />
+        </provider>
+    </application>
+
+</manifest>

@@ -1,0 +1,196 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.bucket"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="28"
+8-->/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/AndroidManifest.xml
+10    // 인터넷 권한 선언
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/AndroidManifest.xml:7:5-67
+11-->/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/AndroidManifest.xml:7:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/AndroidManifest.xml:8:5-79
+12-->/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/AndroidManifest.xml:8:22-76
+13    // 카메라 권한과 외부저장소 읽고 쓰기 권한
+14    <uses-permission android:name="android.permission.CAMERA" />
+14-->/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/AndroidManifest.xml:11:5-65
+14-->/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/AndroidManifest.xml:11:22-62
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+15-->/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/AndroidManifest.xml:12:5-81
+15-->/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/AndroidManifest.xml:12:22-78
+16    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+16-->/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/AndroidManifest.xml:13:5-80
+16-->/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/AndroidManifest.xml:13:22-77
+17
+18    <uses-feature
+18-->/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/AndroidManifest.xml:15:5-16:35
+19        android:name="android.hardware.camera"
+19-->/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/AndroidManifest.xml:15:19-57
+20        android:required="true" />
+20-->/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/AndroidManifest.xml:16:9-32
+21  // 하드웨어 카메라 사용
+22    <application
+22-->/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/AndroidManifest.xml:19:5-71:19
+23        android:allowBackup="true"
+23-->/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/AndroidManifest.xml:20:9-35
+24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+24-->[androidx.core:core:1.7.0] /Users/yujieun/.gradle/caches/transforms-3/b9e4376e452ce4f1a2bbb1fc4b534124/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+25        android:debuggable="true"
+26        android:extractNativeLibs="false"
+27        android:icon="@mipmap/ic_appicon"
+27-->/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/AndroidManifest.xml:21:9-42
+28        android:label="@string/app_name"
+28-->/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/AndroidManifest.xml:22:9-41
+29        android:networkSecurityConfig="@xml/network_security_config"
+29-->/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/AndroidManifest.xml:28:9-69
+30        android:requestLegacyExternalStorage="true"
+30-->/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/AndroidManifest.xml:27:9-52
+31        android:roundIcon="@mipmap/ic_appicon_round"
+31-->/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/AndroidManifest.xml:23:9-53
+32        android:supportsRtl="true"
+32-->/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/AndroidManifest.xml:24:9-35
+33        android:testOnly="true"
+34        android:theme="@style/Theme.Bucket"
+34-->/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/AndroidManifest.xml:25:9-44
+35        android:usesCleartextTraffic="true" >
+35-->/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/AndroidManifest.xml:26:9-44
+36        <activity
+36-->/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/AndroidManifest.xml:29:9-38:20
+37            android:name="com.example.bucket.MainActivity"
+37-->/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/AndroidManifest.xml:30:13-41
+38            android:exported="true"
+38-->/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/AndroidManifest.xml:32:13-36
+39            android:theme="@style/SplashTheme" >
+39-->/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/AndroidManifest.xml:31:13-47
+40            <intent-filter>
+40-->/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/AndroidManifest.xml:33:13-37:29
+41                <action android:name="android.intent.action.MAIN" />
+41-->/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/AndroidManifest.xml:34:17-69
+41-->/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/AndroidManifest.xml:34:25-66
+42
+43                <category android:name="android.intent.category.LAUNCHER" />
+43-->/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/AndroidManifest.xml:36:17-77
+43-->/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/AndroidManifest.xml:36:27-74
+44            </intent-filter>
+45        </activity>
+46        <activity android:name="com.example.bucket.LoginActivity" />
+46-->/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/AndroidManifest.xml:40:9-51
+46-->/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/AndroidManifest.xml:40:19-48
+47        <activity android:name="com.example.bucket.JoinActivity" />
+47-->/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/AndroidManifest.xml:41:9-50
+47-->/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/AndroidManifest.xml:41:19-47
+48        <activity android:name="com.example.bucket.PwFindActivity" />
+48-->/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/AndroidManifest.xml:42:9-52
+48-->/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/AndroidManifest.xml:42:19-49
+49        <activity android:name="com.example.bucket.PWsetActivity" />
+49-->/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/AndroidManifest.xml:43:9-51
+49-->/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/AndroidManifest.xml:43:19-48
+50        <activity android:name="com.example.bucket.PWokayActivity" />
+50-->/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/AndroidManifest.xml:44:9-52
+50-->/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/AndroidManifest.xml:44:19-49
+51        <activity android:name="com.example.bucket.WelcomeActivity" />
+51-->/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/AndroidManifest.xml:45:9-53
+51-->/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/AndroidManifest.xml:45:19-50
+52        <activity android:name="com.example.bucket.HomeActivity" />
+52-->/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/AndroidManifest.xml:46:9-50
+52-->/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/AndroidManifest.xml:46:19-47
+53        <activity android:name="com.example.bucket.SearchActivity" />
+53-->/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/AndroidManifest.xml:47:9-52
+53-->/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/AndroidManifest.xml:47:19-49
+54        <activity android:name="com.example.bucket.MyBKListActivity" />
+54-->/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/AndroidManifest.xml:48:9-54
+54-->/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/AndroidManifest.xml:48:19-51
+55        <activity android:name="com.example.bucket.BKListHeartOnlyActivity" />
+55-->/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/AndroidManifest.xml:49:9-61
+55-->/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/AndroidManifest.xml:49:19-58
+56        <activity android:name="com.example.bucket.WriteBucket1Activity" />
+56-->/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/AndroidManifest.xml:50:9-58
+56-->/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/AndroidManifest.xml:50:19-55
+57        <activity android:name="com.example.bucket.WriteBucket2Activity" />
+57-->/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/AndroidManifest.xml:51:9-58
+57-->/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/AndroidManifest.xml:51:19-55
+58        <activity android:name="com.example.bucket.WriteBucket3Activity" />
+58-->/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/AndroidManifest.xml:52:9-58
+58-->/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/AndroidManifest.xml:52:19-55
+59        <activity android:name="com.example.bucket.WriteBucket4Activity" />
+59-->/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/AndroidManifest.xml:53:9-58
+59-->/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/AndroidManifest.xml:53:19-55
+60        <activity android:name="com.example.bucket.WriteBucketEndActivity" />
+60-->/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/AndroidManifest.xml:54:9-60
+60-->/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/AndroidManifest.xml:54:19-57
+61        <activity android:name="com.example.bucket.PointActivity" />
+61-->/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/AndroidManifest.xml:55:9-51
+61-->/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/AndroidManifest.xml:55:19-48
+62        <activity android:name="com.example.bucket.PointRankActivity" />
+62-->/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/AndroidManifest.xml:56:9-55
+62-->/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/AndroidManifest.xml:56:19-52
+63        <activity android:name="com.example.bucket.MyBKListDetailActivity" />
+63-->/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/AndroidManifest.xml:57:9-60
+63-->/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/AndroidManifest.xml:57:19-57
+64        <activity android:name="com.example.bucket.EditBucket1Activity" />
+64-->/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/AndroidManifest.xml:58:9-57
+64-->/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/AndroidManifest.xml:58:19-54
+65        <activity android:name="com.example.bucket.EditBucket2Activity" />
+65-->/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/AndroidManifest.xml:59:9-57
+65-->/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/AndroidManifest.xml:59:19-54
+66        <activity android:name="com.example.bucket.EditBucket3Activity" />
+66-->/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/AndroidManifest.xml:60:9-57
+66-->/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/AndroidManifest.xml:60:19-54
+67        <activity android:name="com.example.bucket.UserBKListDetailActivity" />
+67-->/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/AndroidManifest.xml:61:9-62
+67-->/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/AndroidManifest.xml:61:19-59
+68        <activity android:name="com.example.bucket.ServiceAskActivity" />
+68-->/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/AndroidManifest.xml:62:9-56
+68-->/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/AndroidManifest.xml:62:19-53
+69        <activity android:name="com.example.bucket.ServiceAskListActivity" />
+69-->/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/AndroidManifest.xml:63:9-60
+69-->/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/AndroidManifest.xml:63:19-57
+70        <activity android:name="com.example.bucket.MySetPageActivity" />
+70-->/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/AndroidManifest.xml:64:9-55
+70-->/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/AndroidManifest.xml:64:19-52
+71        <activity android:name="com.example.bucket.MySetPageEditActivity" />
+71-->/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/AndroidManifest.xml:65:9-59
+71-->/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/AndroidManifest.xml:65:19-56
+72        <activity android:name="com.example.bucket.MyBKListReviewActivity" />
+72-->/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/AndroidManifest.xml:66:9-60
+72-->/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/AndroidManifest.xml:66:19-57
+73        <activity android:name="com.example.bucket.MyBKListAchieveActivity" />
+73-->/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/AndroidManifest.xml:67:9-61
+73-->/Users/yujieun/AndroidStudioProjects/Bucket/app/src/main/AndroidManifest.xml:67:19-58
+74
+75        <meta-data
+75-->[com.google.android.gms:play-services-basement:18.0.1] /Users/yujieun/.gradle/caches/transforms-3/75e20b4d731b77ac9178844a81f34486/transformed/play-services-basement-18.0.1/AndroidManifest.xml:21:9-23:69
+76            android:name="com.google.android.gms.version"
+76-->[com.google.android.gms:play-services-basement:18.0.1] /Users/yujieun/.gradle/caches/transforms-3/75e20b4d731b77ac9178844a81f34486/transformed/play-services-basement-18.0.1/AndroidManifest.xml:22:13-58
+77            android:value="@integer/google_play_services_version" />
+77-->[com.google.android.gms:play-services-basement:18.0.1] /Users/yujieun/.gradle/caches/transforms-3/75e20b4d731b77ac9178844a81f34486/transformed/play-services-basement-18.0.1/AndroidManifest.xml:23:13-66
+78
+79        <provider
+79-->[androidx.emoji2:emoji2:1.0.0] /Users/yujieun/.gradle/caches/transforms-3/2c96a293c0a835e94af1ddc4d74ff22d/transformed/emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+80            android:name="androidx.startup.InitializationProvider"
+80-->[androidx.emoji2:emoji2:1.0.0] /Users/yujieun/.gradle/caches/transforms-3/2c96a293c0a835e94af1ddc4d74ff22d/transformed/emoji2-1.0.0/AndroidManifest.xml:27:13-67
+81            android:authorities="com.example.bucket.androidx-startup"
+81-->[androidx.emoji2:emoji2:1.0.0] /Users/yujieun/.gradle/caches/transforms-3/2c96a293c0a835e94af1ddc4d74ff22d/transformed/emoji2-1.0.0/AndroidManifest.xml:28:13-68
+82            android:exported="false" >
+82-->[androidx.emoji2:emoji2:1.0.0] /Users/yujieun/.gradle/caches/transforms-3/2c96a293c0a835e94af1ddc4d74ff22d/transformed/emoji2-1.0.0/AndroidManifest.xml:29:13-37
+83            <meta-data
+83-->[androidx.emoji2:emoji2:1.0.0] /Users/yujieun/.gradle/caches/transforms-3/2c96a293c0a835e94af1ddc4d74ff22d/transformed/emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+84                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+84-->[androidx.emoji2:emoji2:1.0.0] /Users/yujieun/.gradle/caches/transforms-3/2c96a293c0a835e94af1ddc4d74ff22d/transformed/emoji2-1.0.0/AndroidManifest.xml:32:17-75
+85                android:value="androidx.startup" />
+85-->[androidx.emoji2:emoji2:1.0.0] /Users/yujieun/.gradle/caches/transforms-3/2c96a293c0a835e94af1ddc4d74ff22d/transformed/emoji2-1.0.0/AndroidManifest.xml:33:17-49
+86            <meta-data
+86-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/yujieun/.gradle/caches/transforms-3/bdba8a1b7f77d959878d5a52670cf96f/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+87                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+87-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/yujieun/.gradle/caches/transforms-3/bdba8a1b7f77d959878d5a52670cf96f/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+88                android:value="androidx.startup" />
+88-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/yujieun/.gradle/caches/transforms-3/bdba8a1b7f77d959878d5a52670cf96f/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+89        </provider>
+90    </application>
+91
+92</manifest>
