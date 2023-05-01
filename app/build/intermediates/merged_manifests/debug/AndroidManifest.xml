@@ -30,7 +30,6 @@
         android:requestLegacyExternalStorage="true"
         android:roundIcon="@mipmap/ic_appicon_round"
         android:supportsRtl="true"
-        android:testOnly="true"
         android:theme="@style/Theme.Bucket"
         android:usesCleartextTraffic="true" >
         <activity
