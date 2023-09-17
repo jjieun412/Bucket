@@ -1,13 +1,16 @@
 package com.example.bucket;
 
 
+import android.Manifest;
 import android.annotation.SuppressLint;
 import android.content.ContentResolver;
 import android.content.Intent;
+import android.content.pm.PackageManager;
 import android.database.Cursor;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.net.Uri;
+import android.os.Build;
 import android.os.Bundle;
 import android.provider.MediaStore;
 import android.util.Log;
@@ -22,6 +25,7 @@ import android.widget.Toast;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.app.ActivityCompat;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.google.gson.JsonObject;
@@ -55,7 +59,7 @@ public class MyBKListReviewActivity extends AppCompatActivity {
     FrameLayout frameLayout;
     List<View> myIMGs = new ArrayList<>();
     ImageButton delete_img1;
-    ImageView set_img1, set_img2, set_img3, set_img4, set_img5, set_img6, set_img7, set_img8, set_img9,set_img10;
+    ImageView set_img1;
     ImageView add_img1;
     Button btn_review;
 
@@ -125,7 +129,8 @@ public class MyBKListReviewActivity extends AppCompatActivity {
         AlertDialog.Builder builder = new AlertDialog.Builder(MyBKListReviewActivity.this);
         builder.setTitle("사진 업로드 방식 선택")
                 .setPositiveButton("갤러리", (dialogInterface, i) -> TakeIMGAlbum())
-                .setNegativeButton("취소", null)
+                .setNegativeButton("카메라", (dialogInterface, i) -> TakeIMGCamera())
+                .setNeutralButton("취소", null)
                 .create()
                 .show();
         AlertDialog alertDialog = builder.create();
@@ -140,6 +145,21 @@ public class MyBKListReviewActivity extends AppCompatActivity {
         intent.setData(MediaStore.Images.Media.EXTERNAL_CONTENT_URI);
         startActivityForResult(intent, GET_GALLERY_IMAGE);
     }
+
+    // 카메라로 후기 이미지 찍기
+    public void TakeIMGCamera() {
+        if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+            if(checkSelfPermission(Manifest.permission.CAMERA) == PackageManager.PERMISSION_GRANTED && checkSelfPermission(Manifest.permission.WRITE_EXTERNAL_STORAGE) == PackageManager.PERMISSION_GRANTED) {
+                Log.d("message", "권한 설정 완료");
+            } else {
+                Log.d("message", "권한 설정 요청");
+                ActivityCompat.requestPermissions(MyBKListReviewActivity.this, new String[]{Manifest.permission.CAMERA, Manifest.permission.WRITE_EXTERNAL_STORAGE}, 1);
+            }
+        }
+        Intent imageTakeIntent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+        startActivityForResult(imageTakeIntent, REQUEST_IMAGE_CODE);
+    }
+
 
 
     // 결과값 가져오기
@@ -199,6 +219,7 @@ public class MyBKListReviewActivity extends AppCompatActivity {
         String content = review_content.getText().toString().trim();
         String token = SharedPrefManager.getPreferenceString(MyBKListReviewActivity.this, "token");
         token = token.replaceAll("\"", "");
+
         String uri = SharedPrefManager.getPreferenceString(MyBKListReviewActivity.this, "review_uri");
 
         String id = SharedPrefManager.getPreferenceString(MyBKListReviewActivity.this, "bkID_for_review");
@@ -233,7 +254,6 @@ public class MyBKListReviewActivity extends AppCompatActivity {
 
         RequestBody profile = RequestBody.create(MediaType.parse("multipart/form-data"), data);
         MultipartBody.Part fileToUpload = MultipartBody.Part.createFormData("picture", strFileName, profile);
-
         System.out.println(token + "\n" + bucketId + "\n" + content + "\n" + fileToUpload);
 
         retrofitClient = RetrofitClient.getInstance();

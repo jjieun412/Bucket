@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    package="com.example.bucket">
+    xmlns:tools="http://schemas.android.com/tools">
 
     // 인터넷 권한 선언
     <uses-permission android:name="android.permission.INTERNET" />
@@ -44,10 +43,6 @@
         <activity android:name=".PWokayActivity" />
         <activity android:name=".WelcomeActivity" />
         <activity android:name=".HomeActivity" />
-        <activity android:name=".AlarmActivity" />
-        <activity android:name=".AlarmQuestActivity" />
-        <activity android:name=".AlarmBucketActivity" />
-        <activity android:name=".AlarmPointActivity" />
         <activity android:name=".SearchActivity" />
         <activity android:name=".MyBKListActivity" />
         <activity android:name=".BKListHeartOnlyActivity" />

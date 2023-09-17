@@ -38,7 +38,6 @@ import java.time.DayOfWeek;
 import java.time.Duration;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
-import java.time.Period;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -76,14 +75,11 @@ public class WriteBucket4Activity extends AppCompatActivity {
     CheckBox allday, weekday, weekend;
 
     int diffDay;
-    //Duration duration;
-    Period period;
     LocalDate startD=null, endD=null;
     LocalDate Date = null;
     String N,D;
     String jsonListR;
-    int dayOfWeekNum = 0;
-    int dayOfWeekendNum = 0;
+    int dayOfWeekNum = 0;;
 
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -93,8 +89,6 @@ public class WriteBucket4Activity extends AppCompatActivity {
         ImageButton button_back = (ImageButton) findViewById(R.id.btn_back);
         button_back.setOnClickListener(view -> {
             finish();
-            //Intent intent = new Intent(getApplicationContext(), WriteBucket3Activity.class);
-            //startActivity(intent);
         });
 
         date = (ToggleButton) findViewById(R.id.btn_date);
@@ -178,6 +172,7 @@ public class WriteBucket4Activity extends AppCompatActivity {
                 rule.setBackgroundResource(R.drawable.button_shape_on);
                 date.setTextColor(Color.parseColor("#191970"));
                 date.setBackgroundResource(R.drawable.button_shape);
+                content_rule.setVisibility(View.VISIBLE);
                 goto_nextPage4.setVisibility(View.VISIBLE);
 
                 String start = SharedPrefManager.getPreferenceString(WriteBucket4Activity.this, "startDate");
@@ -198,16 +193,16 @@ public class WriteBucket4Activity extends AppCompatActivity {
                 endD = LocalDate.of(Integer.parseInt(eyear), Integer.parseInt(emonth), Integer.parseInt(eday));
                 System.out.println("localDate : " + startD + " ~ " + endD);  // -> yyyy-mm-dd
 
-                //period = Period.between(startD, endD);
-                //diffDay = period.getDays(); // 차이 일수
-                //System.out.println("차이일 수 : " + period.getDays() + " " + diffDay);
-
                 LocalDateTime Sdate = startD.atStartOfDay();
                 LocalDateTime Edate = endD.atStartOfDay();
                 diffDay = (int) Duration.between(Sdate, Edate).toDays();
                 System.out.println("차이일 수 : " + diffDay);
 
+                //String content_R = content_rule.getText().toString().trim();
+                //System.out.println(content_R);
+                //SharedPrefManager.setPreference(WriteBucket4Activity.this, "content_rule_write", content_R);
                 String content = SharedPrefManager.getPreferenceString(WriteBucket4Activity.this, "content_rule_write");
+
 
                 allday.setOnCheckedChangeListener((buttonView2, isChecked2) -> { //7 (월, 화, 수, 목, 금, 토, 일)
                     if(isChecked) {
@@ -216,6 +211,7 @@ public class WriteBucket4Activity extends AppCompatActivity {
                             Date = startD.plusDays(i);
                             D = Date.format(dtf);
                             System.out.println(N + ", " + D);
+
 
                             Map<String, Object> map = new HashMap<String, Object>();
                             map.put("orderNumb", N);
@@ -243,7 +239,7 @@ public class WriteBucket4Activity extends AppCompatActivity {
                                 dayOfWeekNum++;
                                 N = String.valueOf(dayOfWeekNum);
                                 D = Date.format(dtf);
-                                System.out.println(N + ", " + D + ", " + content);
+                                System.out.println(N + ", " + D);
 
                                 Map<String, Object> map = new HashMap<String, Object>();
                                 map.put("orderNumb", N);
@@ -272,7 +268,7 @@ public class WriteBucket4Activity extends AppCompatActivity {
                                 dayOfWeekNum++;
                                 N = String.valueOf(dayOfWeekNum);
                                 D = Date.format(dtf);
-                                System.out.println(N + ", " + D + ", " + content);
+                                System.out.println(N + ", " + D);
 
                                 Map<String, Object> map = new HashMap<String, Object>();
                                 map.put("orderNumb", N);
@@ -291,8 +287,8 @@ public class WriteBucket4Activity extends AppCompatActivity {
 
                 // 다음페이지로 이동 (4-> end) rule
                 goto_nextPage4.setOnClickListener(v -> {
-                    String content_R = content_rule.getText().toString();  //규칙적 페이지 작성 내용
-                    SharedPrefManager.setPreference(WriteBucket4Activity.this, "content_rule_write", content_R);
+                    String contentR = content_rule.getText().toString().trim();  //규칙적 페이지 작성 내용
+                    SharedPrefManager.setPreference(WriteBucket4Activity.this, "content_rule_write", contentR);
 
                     // 규칙적 세부계획 미 클릭시
                     if (allday.isChecked()==false && weekday.isChecked()==false && weekend.isChecked()==false) {
@@ -304,7 +300,7 @@ public class WriteBucket4Activity extends AppCompatActivity {
                                 .show();
                         AlertDialog alertDialog = builder.create();
                         alertDialog.show();
-                    } else if (content_R.trim().length() == 0 || content_R == null ) {
+                    } else if (contentR.trim().length() == 0 || contentR == null ) {
                         AlertDialog.Builder builder = new AlertDialog.Builder(WriteBucket4Activity.this);
                         builder.setTitle("알림")
                                 .setMessage("버킷리스트 규칙적 세부계획의 내용을 입력해주세요.")

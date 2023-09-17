@@ -109,6 +109,7 @@ public class MyBKListItem {
 
         this.reviewContent = objj.get("reviewContent").isJsonNull()? null: objj.get("reviewContent").getAsString();
         System.out.println("reviewContent");
+
         this.bucketContent = objj.get("bucketContent").isJsonNull()? null: objj.get("bucketContent").getAsString();
         System.out.println("bucketContent");
 

@@ -21,7 +21,6 @@ import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 
 import de.hdodenhof.circleimageview.CircleImageView;
 import retrofit2.Call;
@@ -45,10 +44,11 @@ public class PointRankActivity extends AppCompatActivity {
     TextView first_nick, second_nick, third_nick;   // 1등, 2등, 3등  닉네임
     TextView pfirst, psecond, pthird;   // 1등, 2등, 3등  포인트
 
-    LinearLayout myLayout;
+    LinearLayout myLayout1, myLayout2;
     ImageView myCrown, triangle;
     TextView myRank, myNick, myPoint;
     CircleImageView myImg;
+    int index;
 
 
 
@@ -68,13 +68,17 @@ public class PointRankActivity extends AppCompatActivity {
         psecond = (TextView) findViewById(R.id.point2);
         pthird = (TextView) findViewById(R.id.point3);
 
-        myLayout = (LinearLayout) findViewById(R.id.rank_mine);
+        myLayout1 = (LinearLayout) findViewById(R.id.rank_mine1);
+        myLayout2 = (LinearLayout) findViewById(R.id.rank_mine2);
         myCrown = (ImageView) findViewById(R.id.crown_mine);
         triangle = (ImageView) findViewById(R.id.triangle);
         myRank = (TextView) findViewById(R.id.my_rankNum);
         myImg = (CircleImageView) findViewById(R.id.my_profile);
         myNick = (TextView) findViewById(R.id.my_nickname);
         myPoint = (TextView) findViewById(R.id.my_point);
+
+        myLayout1.setBackgroundResource(R.drawable.radius_rank);
+        myLayout2.setBackgroundResource(R.drawable.radius_rank2);
 
 
         // 뒤로 가기 버튼
@@ -218,14 +222,29 @@ public class PointRankActivity extends AppCompatActivity {
                         if(tempList.get(0).getNick().equals(mitem.getNick())) {  // 내가 1등이면 왕관 이미지 불러오기, 색상변경, 랭킹 앞 번호 변경
                             myCrown.setVisibility(View.VISIBLE);
                             myRank.setText("1");
-                            triangle.setImageResource(R.drawable.triangle2);
-                            // 노랑 색상으로 변경
-                            //myLayout.setBackgroundColor(Color.parseColor("#"));
+                            //triangle.setImageResource(R.drawable.triangle2);
+                            myLayout1.setBackgroundColor(Color.parseColor("#FFFEBB"));
+                            myLayout2.setBackgroundColor(Color.parseColor("#FDF98A"));
+                            myLayout1.setBackgroundResource(R.drawable.radius_rank);
+                            myLayout2.setBackgroundResource(R.drawable.radius_rank2);
                         } else { // 1등이 아니라면
                             myCrown.setVisibility(View.GONE);
-                            myRank.setText(Arrays.asList(tempList).indexOf(mitem.getNick()));
+                            /*
+                            for(int j=1; j<tempList.size(); j++) {
+                                String t = tempList.get(j).getNick();
+                                if(t == mitem.getNick()) {
+                                    String index = Arrays.asList(tempList).indexOf(t) + 1;
+                                    myRank.setText(Arrays.asList(tempList).indexOf(t)+1);
+                                }
+                            }
+
+                             */
+                            myRank.setText("2");
                             triangle.setImageResource(R.drawable.rankline);
-                            myLayout.setBackgroundColor(Color.parseColor("#FFFFFF"));
+                            myLayout1.setBackgroundColor(Color.parseColor("#FFFFFF"));
+                            myLayout2.setBackgroundColor(Color.parseColor("#D4D3D3"));
+                            myLayout1.setBackgroundResource(R.drawable.radius_rank);
+                            myLayout2.setBackgroundResource(R.drawable.radius_rank2);
                         }
                         recyclerView = (RecyclerView) findViewById(R.id.addRankView);
                         adapter = new PointRankAdapter(items.list);

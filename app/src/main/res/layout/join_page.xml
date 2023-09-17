@@ -75,7 +75,7 @@
                         android:id="@+id/textView8"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="220dp"
+                        android:layout_marginLeft="200dp"
                         android:text="글자 수 10자 제한"
                         android:textSize="13dp"
                         android:textColor="#A0A0A0" />
@@ -96,7 +96,7 @@
                         android:layout_margin="10dp"
                         android:padding="10dp"
                         android:background="@drawable/text_shape"
-                        android:ems="12"
+                        android:ems="11"
                         android:privateImeOptions="defaultInputmode=korean"/>
 
                     <ToggleButton
@@ -138,7 +138,7 @@
                         android:layout_margin="10dp"
                         android:padding="10dp"
                         android:background="@drawable/text_shape"
-                        android:ems="12"
+                        android:ems="11"
                         android:inputType="textEmailAddress" />
 
                     <ToggleButton
@@ -179,7 +179,7 @@
                         android:layout_marginTop="10dp"
                         android:layout_marginRight="25dp"
                         android:background="@drawable/text_shape"
-                        android:ems="14"
+                        android:ems="12"
                         android:inputType="textMultiLine"
                         android:padding="10dp" />
 
@@ -232,7 +232,7 @@
                         android:layout_marginBottom="20dp"
                         android:padding="10dp"
                         android:background="@drawable/text_shape"
-                        android:ems="14"
+                        android:ems="12"
                         android:inputType="textMultiLine" />
 
                     <ImageView

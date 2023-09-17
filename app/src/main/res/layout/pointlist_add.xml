@@ -10,9 +10,10 @@
 
     <LinearLayout
         android:id="@+id/layout_pointlist"
-        android:layout_width="wrap_content"
+        android:layout_width="140dp"
         android:layout_height="wrap_content"
         android:layout_marginLeft="40dp"
+        android:layout_marginRight="100dp"
         android:layout_marginTop="4dp"
         android:orientation="vertical">
 
@@ -40,10 +41,9 @@
         android:id="@+id/getpoint_date"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:gravity="right|bottom"
-        android:layout_marginLeft="160dp"
         android:layout_marginTop="40dp"
         android:layout_marginRight="20dp"
+        android:gravity="right|bottom"
         android:text="얻은 날짜"
         android:textColor="#808080"
         android:textSize="12dp" />

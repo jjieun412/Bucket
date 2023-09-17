@@ -148,7 +148,8 @@
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/addDetailsView"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
                 android:layout_marginLeft="30dp"
                 android:layout_marginTop="5dp"
                 android:layout_marginRight="20dp"
@@ -228,7 +229,7 @@
                     android:layout_height="40dp"
                     android:layout_marginRight="15dp"
                     android:background="@drawable/radius"
-                    android:backgroundTint="#DCDCDC"
+                    android:backgroundTint="#B1A8C9"
                     android:stateListAnimator="@null"
                     android:text="후기 등록"
                     android:textColor="#FFFFFF"
